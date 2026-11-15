@@ -44,7 +44,7 @@ menuButton.addEventListener("click",()=>{
 nav.querySelectorAll("a").forEach(a=>a.addEventListener("click",()=>{nav.classList.remove("open");menuButton.setAttribute("aria-expanded","false");menuButton.textContent="☰";}));
 
 // Vor Veröffentlichung die echte GitHub-Release-URL eintragen.
-const DOWNLOAD_URL = "https://github.com/Yarkeix/NEXUS-AI-Downloads/releases/download/v1.0.0/NEXUS_AI_1.0.0_Windows.zip";
+const DOWNLOAD_URL = "https://github.com/Yarkeix/NEXUS-AI-Downloads/releases/download/v.1.0.0/NEXUS_AI_1.0.0_Windows.zip";
 const downloadButton=document.getElementById("downloadButton");
 downloadButton.addEventListener("click",event=>{
   if(DOWNLOAD_URL.startsWith("ADD_")){
