@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080d19">
+  <meta name="description" content="NEXUS AI – Aufgaben, Kalender, Notizen und KI-Unterstützung in einer Desktop-Anwendung.">
+  <title>NEXUS AI — Your productivity. Your intelligence.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="NEXUS AI Startseite">
+      <span class="brand-mark"><span></span><span></span><span></span></span>
+      <span>NEXUS <b>AI</b></span>
+    </a>
+    <nav class="desktop-nav" aria-label="Hauptnavigation">
+      <a href="#features" data-i18n="nav_features">Funktionen</a>
+      <a href="#about" data-i18n="nav_about">Über NEXUS</a>
+      <a href="#download" data-i18n="nav_download">Download</a>
+    </nav>
+    <div class="header-actions">
+      <button class="lang-switch" id="languageToggle" type="button" aria-label="Switch language">EN</button>
+      <a class="button button-small button-outline" href="#download" data-i18n="nav_cta">Jetzt entdecken</a>
+      <button class="mobile-menu-button" id="mobileMenuButton" aria-label="Menü öffnen" aria-expanded="false">☰</button>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero section-shell">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="status-dot"></span><span data-i18n="eyebrow">DEINE PRODUKTIVITÄT. NEU GEDACHT.</span></div>
+        <h1 data-i18n="hero_title">Mehr Überblick.<br><span>Mehr Möglichkeiten.</span></h1>
+        <p class="hero-lead" data-i18n="hero_text">NEXUS AI vereint Aufgaben, Kalender, Notizen und KI-Unterstützung in einer übersichtlichen Desktop-Anwendung.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#download"><span data-i18n="hero_cta">NEXUS AI entdecken</span><span aria-hidden="true">↗</span></a>
+          <a class="text-link" href="#features"><span data-i18n="hero_secondary">Funktionen ansehen</span><span aria-hidden="true">↓</span></a>
+        </div>
+        <div class="hero-meta"><span class="meta-check">✓</span><span data-i18n="hero_meta">Windows-Desktop · Erste öffentliche Preview</span></div>
+      </div>
+      <div class="hero-visual" aria-label="Abstrakte NEXUS AI Produktvorschau">
+        <div class="visual-glow"></div>
+        <div class="app-window">
+          <div class="window-top"><div class="window-dots"><i></i><i></i><i></i></div><span>NEXUS AI</span><span class="window-avatar">Y</span></div>
+          <div class="app-content">
+            <aside class="mock-sidebar"><div class="mock-logo">N<span>·</span></div><div class="mock-side active">▦</div><div class="mock-side">◷</div><div class="mock-side">☷</div><div class="mock-side">✧</div><div class="mock-side">⚙</div></aside>
+            <div class="mock-main">
+              <div class="mock-greeting"><small data-i18n="mock_greeting">DEIN ÜBERBLICK</small><h3 data-i18n="mock_title">Guten Tag.</h3><p data-i18n="mock_subtitle">Alles Wichtige an einem Ort.</p></div>
+              <div class="mock-stats"><div><small data-i18n="mock_tasks">AUFGABEN</small><strong>08</strong><em data-i18n="mock_open">offen</em></div><div><small data-i18n="mock_notes">NOTIZEN</small><strong>12</strong><em data-i18n="mock_saved">gespeichert</em></div></div>
+              <div class="mock-panel"><div class="mock-panel-head"><b data-i18n="mock_today">Heute im Fokus</b><span>•••</span></div><div class="mock-task"><i class="task-check"></i><span data-i18n="mock_task1">Projekt planen</span><small>09:30</small></div><div class="mock-task"><i class="task-check done"></i><span data-i18n="mock_task2">Notizen sortieren</span><small>11:00</small></div><div class="mock-task"><i class="task-check"></i><span data-i18n="mock_task3">Wochenziele festlegen</span><small>14:00</small></div></div>
+              <div class="mock-ai"><span class="ai-spark">✦</span><div><b data-i18n="mock_ai">Dein KI-Assistent</b><small data-i18n="mock_ai_sub">Bereit, dich zu unterstützen.</small></div><span class="ai-arrow">↗</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="floating-chip chip-top"><span>✦</span> AI assistant</div><div class="floating-chip chip-bottom"><span class="status-dot"></span> Stay organized</div>
+      </div>
+    </section>
+
+    <section class="trust-strip section-shell"><span data-i18n="trust_label">EIN ZENTRALER ORT FÜR DEINEN ALLTAG</span><div><b>FOCUS</b><i></i><b>ORGANIZE</b><i></i><b>CREATE</b><i></i><b>GROW</b></div></section>
+
+    <section class="features section-shell" id="features">
+      <div class="section-heading"><div class="eyebrow" data-i18n="features_eyebrow">ALLES VERBUNDEN</div><h2 data-i18n="features_title">Weniger wechseln.<br><span>Mehr erreichen.</span></h2><p data-i18n="features_text">Die Werkzeuge, die du täglich brauchst – an einem übersichtlichen Ort.</p></div>
+      <div class="feature-grid">
+        <article class="feature-card feature-large"><div class="feature-icon icon-blue">▦</div><div class="feature-card-copy"><h3 data-i18n="feature_tasks_title">Aufgaben & Überblick</h3><p data-i18n="feature_tasks_text">Halte deine Aufgaben fest, setze Prioritäten und behalte den nächsten Schritt im Blick.</p></div><div class="mini-board"><div class="mini-board-line"><span></span><b></b><i></i></div><div class="mini-board-line"><span></span><b></b><i></i></div><div class="mini-board-line"><span></span><b></b><i></i></div></div></article>
+        <article class="feature-card"><div class="feature-icon icon-violet">◷</div><h3 data-i18n="feature_calendar_title">Kalender</h3><p data-i18n="feature_calendar_text">Plane Termine und behalte deine Woche im Blick.</p><div class="calendar-art"><span>MO</span><span>DI</span><span>MI</span><span>DO</span><span>FR</span><b>12</b><b>13</b><b>14</b><b>15</b><b>16</b></div></article>
+        <article class="feature-card"><div class="feature-icon icon-cyan">✎</div><h3 data-i18n="feature_notes_title">Notizen</h3><p data-i18n="feature_notes_text">Sammle Gedanken und wichtige Informationen an einem Platz.</p><div class="note-art"><i></i><i></i><i></i></div></article>
+        <article class="feature-card"><div class="feature-icon icon-pink">✦</div><h3 data-i18n="feature_ai_title">KI-Assistent</h3><p data-i18n="feature_ai_text">Nutze deinen lokalen KI-Assistenten mit Ollama oder konfiguriere einen Cloud-Anbieter.</p><div class="ai-orb">✦</div></article>
+        <article class="feature-card"><div class="feature-icon icon-green">⌕</div><h3 data-i18n="feature_search_title">Suche & Organisation</h3><p data-i18n="feature_search_text">Finde Inhalte schneller und bringe Struktur in deine Arbeit.</p><div class="search-art">⌕ <span data-i18n="search_placeholder">Suchen ...</span></div></article>
+      </div>
+    </section>
+
+    <section class="about-band" id="about"><div class="section-shell about-inner"><div><div class="eyebrow" data-i18n="about_eyebrow">DIE IDEE DAHINTER</div><h2 data-i18n="about_title">Ein klarer Kopf<br><span>beginnt mit Klarheit.</span></h2></div><div class="about-copy"><p data-i18n="about_text">NEXUS AI entsteht aus einer einfachen Idee: Die täglichen Dinge sollten leichter zu organisieren sein. Wir entwickeln das Produkt Schritt für Schritt weiter – gemeinsam mit Menschen, die es ausprobieren.</p><div class="signature"><span class="signature-line"></span><span><b>Yarkeix</b><small data-i18n="signature">Independent software project</small></span></div></div></div></section>
+
+    <section class="download-section section-shell" id="download"><div class="download-card"><div class="download-copy"><div class="eyebrow"><span class="status-dot"></span><span data-i18n="download_eyebrow">ERSTE ÖFFENTLICHE VERSION</span></div><h2 data-i18n="download_title">Lerne NEXUS AI kennen.</h2><p data-i18n="download_text">Die erste Windows-Preview ist veröffentlicht. Probiere NEXUS AI aus und hilf uns mit deinem Feedback, das Produkt weiterzuentwickeln.</p><a class="button button-primary" href="#" id="downloadButton"><span data-i18n="download_cta">Windows-Version herunterladen</span><span>↓</span></a><small class="download-note" data-i18n="download_note">Kostenlose Preview · Windows · ZIP-Datei</small></div><div class="download-art"><div class="download-ring ring-one"></div><div class="download-ring ring-two"></div><div class="download-logo"><span class="brand-mark"><span></span><span></span><span></span></span></div><div class="download-version">VERSION 1.0.0</div></div></div><p class="release-caveat" data-i18n="release_caveat">Hinweis: Dies ist eine frühe Preview. Bitte sichere wichtige Daten regelmäßig und melde uns mögliche Fehler.</p></section>
+  </main>
+
+  <footer class="site-footer"><div class="section-shell footer-main"><a class="brand" href="#top"><span class="brand-mark"><span></span><span></span><span></span></span><span>NEXUS <b>AI</b></span></a><p data-i18n="footer_tagline">Your productivity. Your intelligence.</p><div class="footer-links"><a href="#features" data-i18n="nav_features">Funktionen</a><a href="#download" data-i18n="nav_download">Download</a><a href="mailto:SUPPORT_EMAIL" data-i18n="footer_contact">Kontakt</a></div></div><div class="section-shell footer-bottom"><span>© <span id="year"></span> Yarkeix. NEXUS AI.</span><span data-i18n="footer_note">Mit Sorgfalt entwickelt.</span><span class="legal-placeholder" data-i18n="legal_placeholder">Impressum und Datenschutz vor Veröffentlichung ergänzen.</span></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
